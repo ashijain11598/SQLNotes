@@ -1,0 +1,2 @@
+----SELECT FNAME+ ' ' +LNAME AS FULLNAME FROM [SQL TUTORIAL].[dbo].[EMP_INFO]
+--select info.EMP_ID FROM [SQL TUTORIAL].[dbo].[EMP_INFO] AS info

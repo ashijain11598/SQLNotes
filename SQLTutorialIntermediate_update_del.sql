@@ -1,0 +1,2 @@
+----update [SQL TUTORIAL].[dbo].[EMP_INFO] SET EMP_ID=110, GENDER='Male' WHERE FNAME='Chimu'
+--delete from [SQL TUTORIAL].[dbo].[EMP_INFO] where EMP_ID=105

@@ -1,0 +1,11 @@
+CREATE TABLE EMP_INFO
+(EMP_ID int,
+ FNAME VARCHAR(50),
+ LNAME VARCHAR(50),
+ AGE INT,
+ GENDER VARCHAR(50))
+
+ CREATE TABLE EMP_SAL
+ (EMP_ID int,
+ Job_Title varchar(50),
+ Salary int)

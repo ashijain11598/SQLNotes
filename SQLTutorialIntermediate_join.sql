@@ -1,0 +1,7 @@
+--select * from [SQL TUTORIAL].[dbo].[EMP_INFO] Join [SQL TUTORIAL].[dbo].[EMP_SAL] on EMP_INFO.EMP_ID=EMP_SAL.EMP_ID 
+--select * from [SQL TUTORIAL].[dbo].[EMP_INFO] INNER Join [SQL TUTORIAL].[dbo].[EMP_SAL] on EMP_INFO.EMP_ID=EMP_SAL.EMP_ID 
+--select * from [SQL TUTORIAL].[dbo].[EMP_INFO] FULL OUTER Join [SQL TUTORIAL].[dbo].[EMP_SAL] on EMP_INFO.EMP_ID=EMP_SAL.EMP_ID 
+--select * from [SQL TUTORIAL].[dbo].[EMP_INFO] LEFT Join [SQL TUTORIAL].[dbo].[EMP_SAL] on EMP_INFO.EMP_ID=EMP_SAL.EMP_ID 
+--select * from [SQL TUTORIAL].[dbo].[EMP_INFO] RIGHT Join [SQL TUTORIAL].[dbo].[EMP_SAL] on EMP_INFO.EMP_ID=EMP_SAL.EMP_ID 
+--select EMP_INFO.EMP_ID,FNAME,LNAME,Salary from [SQL TUTORIAL].[dbo].[EMP_INFO] INNER Join [SQL TUTORIAL].[dbo].[EMP_SAL] on EMP_INFO.EMP_ID=EMP_SAL.EMP_ID where FNAME <> 'Ashi' order by Salary
+--select Job_Title, AVG(Salary) from [SQL TUTORIAL].[dbo].[EMP_INFO] INNER Join [SQL TUTORIAL].[dbo].[EMP_SAL] on EMP_INFO.EMP_ID=EMP_SAL.EMP_ID where Job_Title='Salesman' group by Job_Title

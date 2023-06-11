@@ -1,0 +1,1 @@
+select top(1000) [EMP_ID], [FNAME], [LNAME], [AGE], [GENDER] FROM [SQL TUTORIAL].[dbo].[EMP_INFO]

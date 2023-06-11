@@ -1,0 +1,3 @@
+--union just needs to be added b/w two tables. It removes duplicates but if we use union all then shows dup values too
+--drawback if data type is same can union other column data as well:
+--select EMP_ID, FNAME, Age from [SQL Tutorial].[dbo].[EMP_INFO] union select EMP_ID,Job_Title,Salary from [SQL Tutorial].[dbo].[EMP_SAL] order by EMP_ID

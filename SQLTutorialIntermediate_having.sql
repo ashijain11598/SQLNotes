@@ -1,0 +1,2 @@
+--AGGREGATE COLUMS KA WHERE HAVING HOTA HAI; hamesha group by k baad aata hai
+select Job_Title, count(Job_Title) from [SQL TUTORIAL].[dbo].[EMP_INFO] JOIN [SQL TUTORIAL].[dbo].[EMP_SAL] ON EMP_INFO.EMP_ID=EMP_SAL.EMP_ID GROUP BY JOB_TITLE HAVING COUNT(Job_Title)=1
